@@ -34,3 +34,21 @@
     padding-bottom: 2%;
     align-items: center;
 }
+
+@media (max-width: 431px) {
+    .info-flex {
+        flex-direction: column;
+    }
+
+    .info-logo {
+        width: 85%;
+    }
+
+    .info-heading {
+        font-size: 3em;
+    }
+
+    .info__content {
+        font-size: 1.5em;
+    }
+}
