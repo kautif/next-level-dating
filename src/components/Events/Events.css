@@ -1,0 +1,33 @@
+@font-face {
+    font-family: retroGrade;
+    src: url("../../fonts/Retro\ Grade-Shadow2.otf");
+}
+
+.events__heading,
+.events__subheading {
+    font-family: retroGrade;
+    font-size: 4em;
+}
+
+.events__subheading {
+    font-size: 3em;
+    color: rgb(188, 185, 185);
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.events__link {
+    font-size: 2em;
+  background-color: purple;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-bottom: 1%;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.events__link:visited {
+    color: rgb(255, 21, 21);
+}

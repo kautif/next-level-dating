@@ -1,0 +1,36 @@
+@font-face {
+    font-family: retroGrade;
+    src: url("../../fonts/Retro\ Grade-Shadow2.otf");
+}
+
+@font-face {
+    font-family: retroFont;
+    src: url("../../fonts/RetroFonts.otf");
+}
+
+.info__logo {
+    width: 25%;
+}
+
+.info__text {
+    width: 70%;
+}
+
+.info__heading {
+    font-family: retroGrade;
+    font-size: 4em;
+}
+
+.info__content {
+    font-family: retroFont;
+    font-size: 2.5em;
+}
+
+.info-flex  {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(225, 225, 225, 0.5);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    align-items: center;
+}
