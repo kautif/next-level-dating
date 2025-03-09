@@ -40,11 +40,11 @@
         flex-direction: column;
     }
 
-    .info-logo {
+    .info__logo {
         width: 85%;
     }
 
-    .info-heading {
+    .info__heading {
         font-size: 3em;
     }
 
